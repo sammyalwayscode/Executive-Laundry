@@ -7,12 +7,14 @@ import Home from "./Components/Home/Home";
 import Order from "./Components/Order/Order";
 import Pricing from "./Components/Pricing/Pricing";
 import Thanks from "./Components/Thanks/Thanks";
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/pricing" element={<Pricing />} />
