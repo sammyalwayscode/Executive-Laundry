@@ -7,7 +7,7 @@ const LoadState = () => {
 
   return (
     <Div className="sweet-loading">
-      <HashLoader loading={loading} size={100} />
+      <HashLoader loading={loading} size={30} />
     </Div>
   );
 };
