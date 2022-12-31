@@ -7,7 +7,12 @@ const Home5 = () => {
     <Container>
       <Wrapper>
         <Title>We Pick Up And We Deliver</Title>
-        <NavLink to="/pricing">
+        <NavLink
+          to="/pricing"
+          style={{
+            textDecoration: "none",
+          }}
+        >
           <button>Get Started</button>
         </NavLink>
         <img src="/image/van.jpg" alt="" />
