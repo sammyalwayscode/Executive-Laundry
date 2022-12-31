@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { BsBasket2Fill, BsFillPhoneFill } from "react-icons/bs";
 import { GiWashingMachine } from "react-icons/gi";
 import { TbTruckDelivery } from "react-icons/tb";
-import Slide from "react-reveal/Slide";
 
 const Home1 = () => {
   return (
@@ -12,69 +11,58 @@ const Home1 = () => {
         <Title>How We Work</Title>
         <SubTitle>Easy As One, Two, Three 😏</SubTitle>
         <CardHold>
-          <Slide bottom>
-            <Card>
-              <InCard>
-                <IconDiv
-                  style={{ backgroundColor: "#dbdaf4", color: "#7c4fcf" }}
-                >
-                  <BsFillPhoneFill />
-                </IconDiv>
-                <CardTitle>Place Order</CardTitle>
-                <CardContent>
-                  Choose when and where you wish us to collect & deliver your
-                  laundry.
-                </CardContent>
-              </InCard>
-            </Card>
-          </Slide>
-          <Slide bottom>
-            <Card>
-              <InCard>
-                <IconDiv
-                  style={{ backgroundColor: "#FCD4DC", color: "#EE2A52" }}
-                >
-                  <BsBasket2Fill />
-                </IconDiv>
-                <CardTitle>We Collect</CardTitle>
-                <CardContent>
-                  We come pick up your clothes from your aborde and take it to
-                  our laundry hub
-                </CardContent>
-              </InCard>
-            </Card>
-          </Slide>
-          <Slide bottom>
-            <Card>
-              <InCard>
-                <IconDiv
-                  style={{ backgroundColor: "#087dc54a", color: "#087CC5" }}
-                >
-                  <GiWashingMachine />
-                </IconDiv>
-                <CardTitle>We Clean</CardTitle>
-                <CardContent>
-                  We list and clean your items according to your requirements.
-                </CardContent>
-              </InCard>
-            </Card>
-          </Slide>
-          <Slide bottom>
-            <Card>
-              <InCard>
-                <IconDiv
-                  style={{ backgroundColor: "#FEF0D9", color: "#FCC101" }}
-                >
-                  <TbTruckDelivery />
-                </IconDiv>
-                <CardTitle>We Deliver</CardTitle>
-                <CardContent>
-                  We deliver your items cleaned as quick as you want and at the
-                  time required.
-                </CardContent>
-              </InCard>
-            </Card>
-          </Slide>
+          <Card>
+            <InCard>
+              <IconDiv style={{ backgroundColor: "#dbdaf4", color: "#7c4fcf" }}>
+                <BsFillPhoneFill />
+              </IconDiv>
+              <CardTitle>Place Order</CardTitle>
+              <CardContent>
+                Choose when and where you wish us to collect & deliver your
+                laundry.
+              </CardContent>
+            </InCard>
+          </Card>
+
+          <Card>
+            <InCard>
+              <IconDiv style={{ backgroundColor: "#FCD4DC", color: "#EE2A52" }}>
+                <BsBasket2Fill />
+              </IconDiv>
+              <CardTitle>We Collect</CardTitle>
+              <CardContent>
+                We come pick up your clothes from your aborde and take it to our
+                laundry hub
+              </CardContent>
+            </InCard>
+          </Card>
+
+          <Card>
+            <InCard>
+              <IconDiv
+                style={{ backgroundColor: "#087dc54a", color: "#087CC5" }}
+              >
+                <GiWashingMachine />
+              </IconDiv>
+              <CardTitle>We Clean</CardTitle>
+              <CardContent>
+                We list and clean your items according to your requirements.
+              </CardContent>
+            </InCard>
+          </Card>
+
+          <Card>
+            <InCard>
+              <IconDiv style={{ backgroundColor: "#FEF0D9", color: "#FCC101" }}>
+                <TbTruckDelivery />
+              </IconDiv>
+              <CardTitle>We Deliver</CardTitle>
+              <CardContent>
+                We deliver your items cleaned as quick as you want and at the
+                time required.
+              </CardContent>
+            </InCard>
+          </Card>
         </CardHold>
       </Wrapper>
     </Container>

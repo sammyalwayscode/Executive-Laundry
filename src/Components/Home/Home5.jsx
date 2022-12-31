@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Home5 = () => {
@@ -6,7 +7,9 @@ const Home5 = () => {
     <Container>
       <Wrapper>
         <Title>We Pick Up And We Deliver</Title>
-        <button>Get Started</button>
+        <NavLink to="/pricing">
+          <button>Get Started</button>
+        </NavLink>
         <img src="/image/van.jpg" alt="" />
       </Wrapper>
     </Container>

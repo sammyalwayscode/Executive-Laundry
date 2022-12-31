@@ -1,18 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Zoom from "react-reveal/Zoom";
 import { NavLink } from "react-router-dom";
 
 const Home2 = () => {
   return (
     <Container>
       <Wrapper>
-        <Zoom left>
-          <Image>
-            <img src="/image/hom.gif" alt="" />
-          </Image>
-        </Zoom>
+        <Image>
+          <img src="/image/hom.gif" alt="" />
+        </Image>
 
         <Text>
           <small>About Us</small>

@@ -4,7 +4,6 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FiPhoneCall } from "react-icons/fi";
 import { BiWorld } from "react-icons/bi";
 import styled from "styled-components";
-import Slide from "react-reveal/Slide";
 
 const Contact = () => {
   return (
@@ -15,42 +14,37 @@ const Contact = () => {
       <Wrapper>
         <h2>Contact Us</h2>
         <Address>
-          <Slide bottom>
-            <AddressCard>
-              <IconDiv>
-                <Icon />
-              </IconDiv>
-              <AddressTitle>Email</AddressTitle>
-              <AdressContent>executivelaundary@gmail.com</AdressContent>
-            </AddressCard>
-          </Slide>
-          <Slide bottom>
-            <AddressCard>
-              <IconDiv>
-                <Icon1 />
-              </IconDiv>
-              <AddressTitle>Contact Address</AddressTitle>
-              <AdressContent>Apatapiti, futa south gate, Akure</AdressContent>
-            </AddressCard>
-          </Slide>
-          <Slide bottom>
-            <AddressCard>
-              <IconDiv>
-                <Icon2 />
-              </IconDiv>
-              <AddressTitle>Contact Number</AddressTitle>
-              <AdressContent>+234 903 8818 943</AdressContent>
-            </AddressCard>
-          </Slide>
-          <Slide bottom>
-            <AddressCard>
-              <IconDiv>
-                <Icon3 />
-              </IconDiv>
-              <AddressTitle>Website</AddressTitle>
-              <AdressContent>www.executivelaundry.com</AdressContent>
-            </AddressCard>
-          </Slide>
+          <AddressCard>
+            <IconDiv>
+              <Icon />
+            </IconDiv>
+            <AddressTitle>Email</AddressTitle>
+            <AdressContent>executivelaundary@gmail.com</AdressContent>
+          </AddressCard>
+
+          <AddressCard>
+            <IconDiv>
+              <Icon1 />
+            </IconDiv>
+            <AddressTitle>Contact Address</AddressTitle>
+            <AdressContent>Apatapiti, futa south gate, Akure</AdressContent>
+          </AddressCard>
+
+          <AddressCard>
+            <IconDiv>
+              <Icon2 />
+            </IconDiv>
+            <AddressTitle>Contact Number</AddressTitle>
+            <AdressContent>+234 903 8818 943</AdressContent>
+          </AddressCard>
+
+          <AddressCard>
+            <IconDiv>
+              <Icon3 />
+            </IconDiv>
+            <AddressTitle>Website</AddressTitle>
+            <AdressContent>www.executivelaundry.com</AdressContent>
+          </AddressCard>
         </Address>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.2895298899143!2d3.341246441825973!3d6.4480529079348425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8bd7063c5ba1%3A0x77013f8760e8d672!2s1%20Idewu%20St%2C%20Apapa%20102103%2C%20Lagos!5e0!3m2!1sen!2sng!4v1652709679602!5m2!1sen!2sng"

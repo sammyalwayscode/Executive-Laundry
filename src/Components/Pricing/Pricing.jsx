@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { GiLoincloth, GiWashingMachine } from "react-icons/gi";
 import { FaHandsWash } from "react-icons/fa";
 import { MdIron } from "react-icons/md";
 

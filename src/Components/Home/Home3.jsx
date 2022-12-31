@@ -1,7 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import styled from "styled-components";
-import Zoom from "react-reveal/Zoom";
 import { NavLink } from "react-router-dom";
 
 const Home3 = () => {
@@ -27,11 +26,10 @@ const Home3 = () => {
             <HiArrowNarrowRight size="20px" />
           </Visit>
         </Text>
-        <Zoom left>
-          <Image>
-            <img src="/image/homm.gif" alt="" />
-          </Image>
-        </Zoom>
+
+        <Image>
+          <img src="/image/homm.gif" alt="" />
+        </Image>
       </Wrapper>
     </Container>
   );

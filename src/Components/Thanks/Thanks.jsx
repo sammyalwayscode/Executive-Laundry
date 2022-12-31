@@ -1,28 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import Slide from "react-reveal/Slide";
 
 const Thanks = () => {
   return (
     <Container>
       <Wrapper>
         <Hold>
-          <Slide bottom>
-            <Icon>
-              <img src="/image/celebration.jpg" alt="" />
-            </Icon>
-          </Slide>
-          <Slide bottom>
-            <Title>Order Recived</Title>
-          </Slide>
-          <Slide bottom>
-            <Message>
-              Thanks for placing an order, Your Order has been Recived 🤝 A mail
-              has been sent to you to justify this and we'll pick up your
-              laundry as soon as we can. Thanks for choosing us
-            </Message>
-          </Slide>
+          <Icon>
+            <img src="/image/celebration.jpg" alt="" />
+          </Icon>
+
+          <Title>Order Recived</Title>
+
+          <Message>
+            Thanks for placing an order, Your Order has been Recived 🤝 A mail
+            has been sent to you to justify this and we'll pick up your laundry
+            as soon as we can. Thanks for choosing us
+          </Message>
+
           <NavLink
             to="/"
             style={{

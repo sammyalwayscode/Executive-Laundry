@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import Flip from "react-reveal/Flip";
-import Slide from "react-reveal/Slide";
 import { NavLink } from "react-router-dom";
 
 const Hero = () => {
@@ -11,11 +9,9 @@ const Hero = () => {
         <ImgTextHold>
           <TextDiv>
             <Title>
-              <Flip top cascade>
-                <div>Get Your</div>
-                <div>Laundry & Dry</div>
-                <div>Cleaning Done</div>
-              </Flip>
+              <div>Get Your</div>
+              <div>Laundry & Dry</div>
+              <div>Cleaning Done</div>
             </Title>
 
             <Content>
@@ -42,11 +38,10 @@ const Hero = () => {
               </NavLink>
             </ButtonHold>
           </TextDiv>
-          <Slide bottom>
-            <ImageDiv>
-              <img src="/image/hero.png" alt="" />
-            </ImageDiv>
-          </Slide>
+
+          <ImageDiv>
+            <img src="/image/hero.png" alt="" />
+          </ImageDiv>
         </ImgTextHold>
       </Wrapper>
     </Container>
